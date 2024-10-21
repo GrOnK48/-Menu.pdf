@@ -1,0 +1,15 @@
+C:\Users\student\source\repos\akhl\akhl\bin\Debug\akhl.exe.config
+C:\Users\student\source\repos\akhl\akhl\bin\Debug\akhl.exe
+C:\Users\student\source\repos\akhl\akhl\bin\Debug\akhl.pdb
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\MainWindow.g.cs
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\App.g.cs
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl_MarkupCompile.cache
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl_MarkupCompile.lref
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\MainWindow.baml
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl.g.resources
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl.Properties.Resources.resources
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl.csproj.GenerateResource.cache
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl.exe
+C:\Users\student\source\repos\akhl\akhl\obj\Debug\akhl.pdb
