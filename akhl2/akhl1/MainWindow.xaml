@@ -1,0 +1,30 @@
+﻿<Window x:Class="akhl1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:akhl1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Height="18" Width="792">
+            <MenuItem Header="Input" Click="MenuItem_Click"></MenuItem>
+            <MenuItem Header="Work" Click="MenuItem_Click_1"></MenuItem>
+            <MenuItem Header="Exit" Click="Click_one"></MenuItem>
+        </Menu>
+        <StackPanel x:Name="stack1" HorizontalAlignment="Left" Height="342" Margin="55,37,0,0" VerticalAlignment="Top" Width="700">
+            <TextBox x:Name="radius1" Height="23" TextWrapping="Wrap" Margin="0,0,584,0" Text="число1"/>
+            <TextBox x:Name="visota1" Height="23" TextWrapping="Wrap" Margin="0,0,584,0" Text="число2" />
+            <TextBox x:Name="plotnost1" Height="23" TextWrapping="Wrap" Margin="0,0,584,0" Text="число3"/>
+            <CheckBox x:Name="check1" BorderBrush="Aquamarine" BorderThickness="2" Content="подсчет Суммы" Margin="0,0,584,0"/>
+            <CheckBox x:Name="check2" BorderBrush="Aquamarine" BorderThickness="2" Content="подсчет наименьшего" Margin="0,0,544,0"/>
+
+            <Button Click = "Button_Click" Content="Результат" Margin="0,50,594,0"/>
+
+        </StackPanel>
+        <StackPanel x:Name="stack2" HorizontalAlignment="Left" Height="295" Margin="252,84,0,0" VerticalAlignment="Top" Width="503" Visibility="Hidden">
+            <TextBox x:Name="text1" Height="238" TextWrapping="Wrap" />
+        </StackPanel>
+
+    </Grid>
+</Window>
