@@ -23,35 +23,36 @@ namespace akhl1
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             stack2.Visibility = stack2.Visibility == Visibility.Visible ? Visibility.Hidden : Visibility.Visible;
+          
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-          
             if (int.TryParse(plotnost1.Text, out int plotnost) &&
                 int.TryParse(visota1.Text, out int visota) &&
                 int.TryParse(radius1.Text, out int radius))
             {
-             
-                bool check21 = check2.IsChecked == true;
-                bool check11 = check2.IsChecked == true;
+                bool check11 = check1.IsChecked == true;
+                double volume = radius + visota + plotnost;
+                bool check21 = check2.IsChecked == true; 
+                double mass = radius / visota; 
 
-                if (check11 || check21 == true)
+                string result = "SUMM = " + volume;
+
+                if (check21)
                 {
-                    double volume = (1.0 / 3) * Math.PI * (radius * radius) * visota;
-                    double mass = volume * plotnost;
-                    text1.Text = $"V = {volume:F2} см³, M = {mass:F2} г";
-                    stack2.Visibility = Visibility.Visible;
+                    result += $", НАИМЕНЬШЕЕ КРАТНОЕ = {mass}";
                 }
-                else
-                {
-                    MessageBox.Show("Пожалуйста, выберите хотя бы одну опцию.");
-                }
+
+                text1.Text = result;
+                stack2.Visibility = Visibility.Visible;
             }
             else
             {
                 MessageBox.Show("Пожалуйста, введите корректные числовые значения.");
             }
         }
+
     }
 }
+
